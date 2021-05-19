@@ -197,7 +197,7 @@ $(document).ready(function () {
         $('#grid .cell.selected').each(function () {
             $(this).css('color', textColor);
             let rid = parseInt($(this).attr('rid'));
-            let cid = parseInt($(this).attr('rid'));
+            let cid = parseInt($(this).attr('cid'));
             let cobj = rows[rid][cid];
             cobj.textColor = textColor;
 
